@@ -1,4 +1,4 @@
-package com.jancassio.utils
+package jancassio.utils
 {
 	import flash.utils.Dictionary;
 

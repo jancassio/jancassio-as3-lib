@@ -10,5 +10,4 @@ package jancassio.events
 	{
 		
 	}
-	
 }
