@@ -1,10 +1,12 @@
 package jancassio.utils.net
 {	
-	import potato.core.IDisposable;
 	import flash.net.NetStream;
-	import flash.events.IEventDispatcher;
-	import jancassio.events.NSClientEvent;
 	import flash.events.Event;
+	import flash.events.IEventDispatcher;
+	
+	import jancassio.events.NSClientEvent;
+	import jancassio.utils.IDisposable;
+	
 	
 	/**
 	 * Provides a advanced interface to handles NetStream client object.
