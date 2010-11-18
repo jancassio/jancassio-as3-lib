@@ -1,6 +1,6 @@
 package jancassio.utils.display 
 {
-	import jancassio.interfaces.IDisposable;
+	import jancassio.utils.IDisposable;
 
 	import flash.display.Sprite;
 	import flash.errors.IllegalOperationError;

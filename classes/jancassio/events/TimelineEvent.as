@@ -35,7 +35,7 @@ package jancassio.events
 		 */		
 		public function get label () : String
 		{
-			return (currentTarget as MovieClip).currentFrameLabel
+			return (currentTarget as MovieClip).currentFrameLabel;
 		}
 		
 		
