@@ -75,7 +75,7 @@ package jancassio.utils.display
 		{
 			var frame : int;
 			
-			frame = frameLabelOf(this, name).frame
+			frame = frameLabelOf(this, name).frame;
 			playTo( frame , callback );
 			
 			return frame;
