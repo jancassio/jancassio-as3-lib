@@ -4,7 +4,7 @@ package jancassio.utils.display
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	
-	import jancassio.interfaces.IDisposable;
+	import jancassio.utils.IDisposable;
 	import jancassio.modules.display.frameLabelOf;
 
 	/**
