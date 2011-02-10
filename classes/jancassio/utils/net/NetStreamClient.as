@@ -39,12 +39,12 @@ package jancassio.utils.net
 			_xmpData	= {};
 			_listener	= {};
 			
-			_listener.onXMPData    = onXMPData;
-			_listener.onTextData   = onTextData;
-			_listener.onPlayStatus = onPlayStatus;
-			_listener.onMetaData   = onMetaData;
-			_listener.onImageData  = onImageData;
-			_listener.onCuePoint   = onCuePoint;
+			_listener[ "onXMPData" ]  	= onXMPData;
+			_listener[ "onTextData" ]   = onTextData;
+			_listener[ "onPlayStatus" ] = onPlayStatus;
+			_listener[ "onMetaData" ]   = onMetaData;
+			_listener[ "onImageData" ]  = onImageData;
+			_listener[ "onCuePoint" ]   = onCuePoint;
 			
 			_netstream.client = _listener;
 		}
@@ -178,12 +178,12 @@ package jancassio.utils.net
 		{
 			var p : String;
 			
-			_netstream.client.onCuePoint   = null;
-			_netstream.client.onImageData  = null;
-			_netstream.client.onMetaData   = null;
-			_netstream.client.onPlayStatus = null;
-			_netstream.client.onTextData   = null;
-			_netstream.client.onXMPData    = null;
+			_netstream.client[ "onCuePoint" ]   = null;
+			_netstream.client[ "onImageData" ]  = null;
+			_netstream.client[ "onMetaData" ]   = null;
+			_netstream.client[ "onPlayStatus" ] = null;
+			_netstream.client[ "onTextData" ]   = null;
+			_netstream.client[ "onXMPData" ]    = null;
 			_netstream  = null;
 			_cuePoint   = null;
 			_imageData  = null;

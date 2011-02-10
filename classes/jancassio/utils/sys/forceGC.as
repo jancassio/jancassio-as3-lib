@@ -1,6 +1,7 @@
-package jancassio.modules.sys
+package jancassio.utils.sys 
 {	
 	import flash.net.LocalConnection;
+	
 	
 	/**
 	 * Opens two local connections with same name, calls the dustman

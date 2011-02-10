@@ -1,11 +1,10 @@
 package jancassio.utils.display 
 {
-	import flash.display.FrameLabel;
+	import jancassio.modules.display.frameLabelOf;
+	import jancassio.utils.IDisposable;
+
 	import flash.display.MovieClip;
 	import flash.events.Event;
-	
-	import jancassio.utils.IDisposable;
-	import jancassio.modules.display.frameLabelOf;
 
 	/**
 	 * Simple movieclip with added to stage implement and some extra killer features.
@@ -76,7 +75,7 @@ package jancassio.utils.display
 		{
 			var frame : int;
 			
-			frame = frameLabelOf(this, name).frame
+			frame = frameLabelOf(this, name).frame;
 			playTo( frame , callback );
 			
 			return frame;
