@@ -9,7 +9,7 @@ package jancassio.modules.str
 	 * @param char String
 	 * @private
 	 */
-	protected function fillLeft (string : String, count : int = 1, char : String = "0") : String
+	public function fillLeft (string : String, count : int = 1, char : String = "0") : String
 	{
 	  var r : String;
 	  var i : int;
